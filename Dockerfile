@@ -1,2 +1,2 @@
-FROM docker.io/ginx:latest
+FROM docker.io/nginx:latest
 COPY ./index.html /usr/share/nginx/html/index.html
